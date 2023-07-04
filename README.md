@@ -21,4 +21,5 @@
 - Prepare base model
     **In image classification we don not require data validattion stage is not require because the image folders are in  correct format. But we can add if we require. It is general require for NLP and object detetction problem**
     **Fist we will build configuration for paths in config.yaml**
-- 
+- Call back
+    **We will not be creating any pipeline for this. We will use this inside the training piepline. This will actually help us in training**
