@@ -23,3 +23,13 @@
     **Fist we will build configuration for paths in config.yaml**
 - Call back
     **We will not be creating any pipeline for this. We will use this inside the training piepline. This will actually help us in training**
+
+- Model Evaluation: 
+    **In evaluation we dont need any configuration.**
+    **Here we check loss and accuracy**
+
+- DVC:
+    **DVC need git to be initialized.**
+    **Use 'dvc repro' command to start execution**
+    **Use 'dvc dag' command to see the piepline. Here we can see which stage is depemdemt on which stage.**
+    
