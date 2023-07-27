@@ -56,4 +56,4 @@ except Exception as e:
 
 # except Exception as e:
 #         logger.exception(e)
-#         raise e
+#         raise ez
