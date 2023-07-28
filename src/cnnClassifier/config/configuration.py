@@ -77,9 +77,7 @@ class ConfigurationManager:
         prepare_base_model = self.config.prepare_base_model
         params = self.params
         training_data = os.path.join(self.config.data_ingestion.unzip_dir, "Chicken-fecal-images")
-        create_directories([
-            Path(training.root_dir)
-        ])
+        create_directories([Path(training.root_dir)])
 
         training_config = TrainingConfig(
             root_dir=Path(training.root_dir),
